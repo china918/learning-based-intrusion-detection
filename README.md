@@ -39,6 +39,10 @@ There are many types of preprocessing. We can preprocess data to have a high qua
 
 For IDS, there are many side knowledge to help us choose and design features.
 
+What are the useful features?
+
+
+
 
 
 ### Dataset
