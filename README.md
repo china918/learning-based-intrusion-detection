@@ -15,7 +15,7 @@ However, offline models are the main topic discussed by a variety of papers. Cur
 
 
 
-### offline multi-level/hierarchical model
+### offline multi-level/hierarchical classification
 
 Currently, most multi-level models are actually multi-classification models. As we can see, most in-use classification algorithms are bi-classifications. There are multiple methods to extend them to multi-class algorithm, such as 1 vs all, 1 vs 1, tree. Generally speaking, those models are just trying to divide original multiple class into 2 groups and apply classfication algorithm recursively. So these methods will derive multiple levels in the multi-classification process. 
 
@@ -31,7 +31,13 @@ It's clear that the so-called multi-level model is actually a hierarchical class
 
 ## preprocess
 
-There are many types of preprocessing. We can preprocess data to have a high quality data subset to gain quicker speed and better accuarcy, or to make data subject to a certain distribution to meet the needs of algorithm, or to get rid of outlier, or to turn lexical features into numerical ones... Preprocess is important to led to a out-performanced model.
+There are many types of preprocessing. We can preprocess data to have a high quality data subset to gain quicker speed and better accuarcy, or to make data subject to a certain distribution to meet the needs of algorithm, or to get rid of outlier, or to turn lexical features into numerical ones... Preprocess is important to led to a out-performanced model. Here are some of the most used skills for preprocessing:
+
++ Use clustering algorithm to reduce train dataset. clustering algorihtm such as k-means can change original data into clusters, then we can use the centroid to represent all the data in the same cluster, thus reducing the dataset size.
+
+Examples:
+
++ modified_kmeans.py
 
 
 
@@ -96,3 +102,33 @@ What are the useful features?
 + http://www.secrepo.com/
 
   ​
+
+### Papers
+
+**2017:**
+
++ Al-Yaseen W L, Othman Z A, Nazri M Z A. Multi-level hybrid support vector machine and extreme learning machine based on modified K-means for intrusion detection system[J]. Expert Systems with Applications, 2017, 67: 296-303.
+
+  **Remark:** This paper actually has done thing but change the classification methods in the framework of herachical classification. So this paper is too trivial and has little value. 
+
+  **Worth Reading:** only Chapeter 3.2.
+
++ Zhang X, An J, Wang Y, et al. The application of immune clone algorithm in network intrusion detection[C]//Computer and Information Science (ICIS), 2017 IEEE/ACIS 16th International Conference on. IEEE, 2017: 619-622.
+
+  **Remark:** This paper is just rubbish, I don't know why National Natural Science Foundation of China will support such a rubbish project.
+
++ ​
+
+
+
+
+
+### Trends
+
+Following the papers concerning IDS, we can see mainly two directions.
+
+1.  Along with the improvement of machine learning. From single classifier to ensemble, hybrid classifier; from feature learning to deep learning.
+2.  Along with the security of pervasive computing. Wireless network, SCADA, Cloud and so on, need specific IDSs.
+
+How machine learning based methods differ from traditional pattern matching methods? Think in Deep.
+
