@@ -117,8 +117,20 @@ What are the useful features?
 
   **Remark:** This paper is just rubbish, I don't know why National Natural Science Foundation of China will support such a rubbish project.
 
-+ ​
++ Sharma A, Manzoor I, Kumar N. A Feature Reduced Intrusion Detection System Using ANN Classifier[J]. Expert Systems with Applications, 2017.
 
+  **Remark:** Not good enough, but with good literature review. And it's feature preprocessing of KDD Cup data may have some reference value, especially the feature set the authors select.
+
++ Yuan G, Li B, Yao Y, et al. A deep learning enabled subspace spectral ensemble clustering approach for web anomaly detection[C]// International Joint Conference on Neural Networks. IEEE, 2017:3896-3903.
+
+  **Remark:** Introduce semantic information of URL into detection and cluster anomalies into more concrete types. Have some value. 
+
+
+**2016**:
+
++ Javaid A, Niyaz Q, Sun W, et al. A deep learning approach for network intrusion detection system[C]//Proceedings of the 9th EAI International Conference on Bio-inspired Information and Communications Technologies (formerly BIONETICS). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), 2016: 21-26.
+
+  **Remark:** though has little theory value, but this article is **a quite good introduction paper** to dummies of NIDS.
 
 
 
